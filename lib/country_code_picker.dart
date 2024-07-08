@@ -127,7 +127,8 @@ class CountryCodePicker extends StatefulWidget {
     this.dialogBackgroundColor,
     this.closeIcon = const Icon(Icons.close),
     this.countryList = codes,
-    this.dialogItemPadding = const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+    this.dialogItemPadding =
+        const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
     this.searchPadding = const EdgeInsets.symmetric(horizontal: 24),
     Key? key,
   }) : super(key: key);
@@ -300,6 +301,9 @@ class CountryCodePickerState extends State<CountryCodePicker> {
       context: context,
       builder: (context) => Center(
         child: Dialog(
+          shape: RoundedRectangleBorder(
+              borderRadius:
+                  widget.boxDecoration?.borderRadius ?? BorderRadius.zero),
           child: SelectionDialog(
             elements,
             favoriteElements,
