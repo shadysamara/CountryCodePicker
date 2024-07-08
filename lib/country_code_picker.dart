@@ -28,6 +28,7 @@ class CountryCodePicker extends StatefulWidget {
   final bool enabled;
   final TextOverflow textOverflow;
   final Icon closeIcon;
+  final double? borderRadius;
 
   /// Barrier color of ModalBottomSheet
   final Color? barrierColor;
@@ -103,6 +104,7 @@ class CountryCodePicker extends StatefulWidget {
     this.searchDecoration = const InputDecoration(),
     this.searchStyle,
     this.dialogTextStyle,
+    this.borderRadius,
     this.emptySearchBuilder,
     this.showOnlyCountryWhenClosed = false,
     this.alignLeft = false,
@@ -302,8 +304,7 @@ class CountryCodePickerState extends State<CountryCodePicker> {
       builder: (context) => Center(
         child: Dialog(
           shape: RoundedRectangleBorder(
-              borderRadius:
-                  widget.boxDecoration?.borderRadius ?? BorderRadius.zero),
+              borderRadius: BorderRadius.circular(widget.borderRadius ?? 0)),
           child: SelectionDialog(
             elements,
             favoriteElements,
