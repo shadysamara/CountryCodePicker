@@ -1085,11 +1085,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+963",
   },
   {
-    "name": "臺灣",
-    "code": "TW",
-    "dial_code": "+886",
-  },
-  {
     "name": "Тоҷикистон",
     "code": "TJ",
     "dial_code": "+992",
