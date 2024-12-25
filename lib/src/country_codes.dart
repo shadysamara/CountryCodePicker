@@ -220,11 +220,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+56",
   },
   {
-    "name": "中国",
-    "code": "CN",
-    "dial_code": "+86",
-  },
-  {
     "name": "Christmas Island",
     "code": "CX",
     "dial_code": "+61",
