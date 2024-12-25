@@ -90,11 +90,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+973",
   },
   {
-    "name": "Bangladesh",
-    "code": "BD",
-    "dial_code": "+880",
-  },
-  {
     "name": "Barbados",
     "code": "BB",
     "dial_code": "+1246",
@@ -213,11 +208,6 @@ const List<Map<String, String>> codes = [
     "name": "Tchad",
     "code": "TD",
     "dial_code": "+235",
-  },
-  {
-    "name": "Chile",
-    "code": "CL",
-    "dial_code": "+56",
   },
   {
     "name": "Christmas Island",
@@ -540,11 +530,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+1876",
   },
   {
-    "name": "日本",
-    "code": "JP",
-    "dial_code": "+81",
-  },
-  {
     "name": "Jersey",
     "code": "JE",
     "dial_code": "+44",
@@ -563,11 +548,6 @@ const List<Map<String, String>> codes = [
     "name": "Kenya",
     "code": "KE",
     "dial_code": "+254",
-  },
-  {
-    "name": "Kiribati",
-    "code": "KI",
-    "dial_code": "+686",
   },
   {
     "name": "북한",
@@ -613,11 +593,6 @@ const List<Map<String, String>> codes = [
     "name": "Lesotho",
     "code": "LS",
     "dial_code": "+266",
-  },
-  {
-    "name": "Liberia",
-    "code": "LR",
-    "dial_code": "+231",
   },
   {
     "name": "‏ليبيا",
@@ -835,11 +810,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+92",
   },
   {
-    "name": "Palau",
-    "code": "PW",
-    "dial_code": "+680",
-  },
-  {
     "name": "فلسطين",
     "code": "PS",
     "dial_code": "+970",
@@ -883,16 +853,6 @@ const List<Map<String, String>> codes = [
     "name": "Portugal",
     "code": "PT",
     "dial_code": "+351",
-  },
-  {
-    "name": "Puerto Rico",
-    "code": "PR",
-    "dial_code": "+1939",
-  },
-  {
-    "name": "Puerto Rico",
-    "code": "PR",
-    "dial_code": "+1787",
   },
   {
     "name": "قطر",
@@ -1138,11 +1098,6 @@ const List<Map<String, String>> codes = [
     "name": "Turks and Caicos Islands",
     "code": "TC",
     "dial_code": "+1649",
-  },
-  {
-    "name": "Tuvalu",
-    "code": "TV",
-    "dial_code": "+688",
   },
   {
     "name": "Uganda",
